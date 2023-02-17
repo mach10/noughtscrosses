@@ -3,7 +3,7 @@
 
 
 const getWinner = (board) => {
-    return 'X wins!'
+    return 'some result'
 };
 
 module.exports = getWinner
