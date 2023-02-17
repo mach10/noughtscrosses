@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+node_modules
+npm-debug.log*
+build
+!lib/build
+.env
+*.DS_Store
+.idea
+.vscode
+jsconfig.json
+yarn-error.log
+junit.xml
+.pytest_cache/
+env/

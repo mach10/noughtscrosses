@@ -1,0 +1,15 @@
+{
+  "name": "orchardtest",
+  "version": "1.0.0",
+  "description": "Tests for software developers",
+  "main": "noughtsAndCrosses.js",
+  "scripts": {
+    "test": "jest",
+    "test-xo": "jest ./noughtsAndCrosses"
+  },
+  "author": "rcs",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.2"
+  }
+}
