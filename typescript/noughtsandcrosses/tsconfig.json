@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES2019",
+        "outDir": "./dist/",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "rootDir": "noughtsandcrosses/src",
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "noughtsandcrosses/src/*"
+      ]
+}

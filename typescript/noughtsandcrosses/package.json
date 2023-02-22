@@ -1,0 +1,19 @@
+{
+  "name": "noughtsandcrosses",
+  "version": "1.0.0",
+  "description": "Tests for software developers",
+  "main": "gameDecider.ts",
+  "scripts": {
+    "compile": "tsc --build ./tsconfig.json",
+    "test": "jest",
+    "test-xo": "jest ./test/*.spec.ts"
+  },
+  "author": "rcs",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.2",
+    "typescript": "^4.7.4",
+    "@types/jest": "^29.2.2",
+    "ts-jest": "^29.0.3"
+  }
+}

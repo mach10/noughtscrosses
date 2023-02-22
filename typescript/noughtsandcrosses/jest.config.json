@@ -1,0 +1,13 @@
+{
+    "moduleNameMapper": {
+        "^src/(.*)$": "<rootDir>/src/$1",
+        "^tests/(.*)$": "<rootDir>/tests/$1"
+    },
+    "moduleFileExtensions": [
+        "ts", "js"
+    ],
+    "transform": {
+        "^.+\\.ts$": "ts-jest"
+    },
+    "testTimeout": 60000
+}
